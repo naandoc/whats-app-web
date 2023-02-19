@@ -1,0 +1,72 @@
+.contacts-and-messages header {
+    height: 59px;
+    width: 100%;  
+    
+    padding: 10px 16px;  
+
+    background-color: #202c33;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-perfil {
+    height: 40px;
+    width: 40px;
+    
+    border-radius: 50%;
+
+    background-color: #fff;
+
+    display: flex;
+}
+
+.img-perfil div {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.img-perfil div img {
+    width: 100%;
+    height: 100%;    
+    border-radius: 50%;
+
+    background-position: center;
+}
+
+.menu {
+    width: 140px;
+    height: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu div {  
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+
+    text-decoration: none;
+    color: rgb(245, 236, 236);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu div:nth-child(2), .menu div:nth-child(3) {
+    margin-left: 10px;
+}

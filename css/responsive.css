@@ -1,0 +1,60 @@
+@media screen and (max-width: 1265px) {
+    main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contacts-and-messages {
+        width: 40%;
+    }
+
+    .my-messager-container {
+        padding: 0 2rem 0 2.5rem;
+    }
+    .message-chat {
+        padding: 0 2rem 0 calc(2.5rem - 35.19px)
+    }
+
+    .my-messager-container::before {
+        right: 24px;
+    }
+} 
+
+@media screen and (max-width: 935px){
+    .messages-chat {
+        overflow-x: hidden;
+        min-width: 400px;
+    }
+
+    .header-messages {
+        padding: 4px 8px;
+        min-width: 400px;
+    }
+
+    .search-messages-config {
+        width: 18%;
+    }
+    .search-messages-config span {
+        padding: 2px 3px;
+    }
+
+    .contacts-and-messages {
+        width: 60%;
+        max-width: 400px;
+    }
+
+    .my-messager-container {
+        padding: 0 .4rem 0 3rem;
+    }
+    .message-chat {
+        padding: 0 .4rem 0 calc(3rem - 35.19px)
+    }
+
+    .my-messager-container::before {
+        right: -2px;
+    }
+
+    .insert-message {
+        min-width: 400px;
+    }
+}

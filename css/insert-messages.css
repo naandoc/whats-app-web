@@ -1,0 +1,61 @@
+.insert-message {
+    height: 62px;
+    background-color: #202c33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .3rem;    
+}
+
+.emoji-attach {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.emoji-attach span {
+    cursor: pointer;
+    margin: 0 .8rem;
+}
+
+.emoji-attach .clip {
+    padding: .3rem .4rem;
+    margin: 0;
+}
+
+.cancel-emoji-link {
+    display: none;
+}
+
+.insert-message-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    
+}
+.insert-message-container input {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    padding: .3rem .5rem;
+    background-color: #2a3942;
+    color: #d3d0d0;
+    border: none;
+}
+.insert-message-container input::placeholder {
+    font-size: 1.1em;
+    padding-left: .2rem;
+}
+.send-audio {
+    width: 4.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insert-audio img {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}

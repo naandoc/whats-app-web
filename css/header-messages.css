@@ -1,0 +1,48 @@
+.header-messages {
+    height: 59px;
+    background-color: #202c33;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 18px;
+}
+.header-messages svg {
+    color: rgba(255, 255, 255, .6);;
+}
+
+.photo-and-name {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.photo-and-name .photo {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.photo-and-name .photo img {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+.photo-and-name .name {
+    width: calc(100% - 40px);
+    padding-left: 16px;
+}
+.photo-and-name .name h1 {
+    font-size: 1.1rem;
+}
+
+.search-messages-config {
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-messages-config span {
+    padding: 5px 8px;
+    cursor: pointer;
+}
